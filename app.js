@@ -11,9 +11,9 @@ app.get('/', (req, res) => {
 	res.end()
 })
 
-// Port Number
+// Port Numberheehwe
 const PORT = process.env.PORT ||5000;
 
 // Server Setup
 app.listen(PORT,console.log(
-`Server started on port ${PORT}`));
+`Server running on port ${PORT}`));
